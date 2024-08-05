@@ -7,7 +7,8 @@ A functionality has been added to the game, allowing the player to go backwards 
 There are three executables and a few tests that can be compiled using :
 `make compile-all`
 
-#EXECUTABLES#
+Executables
+===========
 
 - `./play.exe [./data/FILENAME.in]`
 
@@ -38,20 +39,23 @@ There are three executables and a few tests that can be compiled using :
             (Use Enter key to go to the next step and Escape key or "Q" key to leave the program)
 
 
-#TESTS#
+Tests
+======
 
 All the tests can be executed using :
 `make launch-tests`
 
 No test need an argument when launched
-test-loader can still be launched using [./data/FILENAME.in], a path to a map, to test the loader on a different map than the default one
+test-loader can still be launched using `[./data/FILENAME.in]`, a path to a map, to test the loader on a different map than the default one
 
 
-#REQUIREMENTS#
+Requirements
+============
 
 - gcc
 - SDL/SDL2
 
-#DOCUMENTATION#
+Documentation
+==============
 
 Doxygen documentation is available in ./doc/html/index.html
